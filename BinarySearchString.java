@@ -45,9 +45,11 @@ public class BinarySearchString {
         System.out.println("given array is: EWRSFSFSFSB, BB, AA, SDFSFJ, WRTG, FF ,ERF, FED, TGH ");
         System.out.println("Enter the word : ");
         String str = sc.nextLine();
+
         Arrays.sort(array); /// to sort the String array
         System.out.println("The entered string is: " + str);
         int ans = binaryStringSearch(array, str);
+
         if (ans == 1) {
             System.out.println("The String is found ");
         } else
